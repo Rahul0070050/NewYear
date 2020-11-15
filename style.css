@@ -5,6 +5,7 @@
     margin: 0;
 }
 .container{
+    padding-top: 5em;
     overflow: hidden;
     min-height: 100vh;
     width: 100%;
@@ -19,6 +20,7 @@
     color: white;
 }
 .container h1{
+    font-size: 2rem;
     display: flex;
     justify-content: center;
 }
@@ -32,7 +34,7 @@
     text-align: center;
 }
 .container h1{
-    font-size: 5rem;
+    font-size: 5.5rem;
     margin-top: -6rem;
 }
 .coundown-container div{
@@ -40,9 +42,9 @@
     margin-top: 2rem;
 }
 .coundown-container div p{
-    font-size: 3.5rem;
+    font-size: 4.5rem;
 }
 .coundown-container div span{
     letter-spacing: .3rem;
-    font-size: 1.8rem;
+    font-size: 2.3rem;
 }

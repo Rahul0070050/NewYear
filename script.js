@@ -1,9 +1,9 @@
 
 const reTime = '1 jan 2021';
-const dayselm = document.getElementById("days")
-const hourlm = document.getElementById("hour")
-const minuteselm = document.getElementById("minutes")
-const secondeselm = document.getElementById("secondes")
+const dayselm = document.getElementById("days");
+const hourlm = document.getElementById("hour");
+const minuteselm = document.getElementById("minutes");
+const secondeselm = document.getElementById("secondes");
 
 
 function counDown(){
@@ -33,4 +33,4 @@ function zero(time){
 }
 
 counDown();
-setInterval(counDown, 1000)
+setInterval(counDown, 1000);
