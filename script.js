@@ -14,7 +14,6 @@ function counDown(){
     const hour = Math.floor(tottleSecondes / 3600) % 24;
     const minits = Math.floor(tottleSecondes / 60) % 60;
     const Secondes = Math.floor(tottleSecondes) % 60;
-    console.log(days,hour,minits,Secondes);
 
     dayselm.innerHTML = days;
     hourlm.innerHTML = zero(hour);
