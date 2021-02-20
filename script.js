@@ -1,5 +1,5 @@
 
-const reTime = '1 jan 2021';
+const reTime = '1 jan 2022';
 const dayselm = document.getElementById("days");
 const hourlm = document.getElementById("hour");
 const minuteselm = document.getElementById("minutes");
