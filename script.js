@@ -1,5 +1,8 @@
 
-const reTime = '1 jan 2022';
+let realTime = '1 jan ';
+let year = new Date().getFullYear();
+realTime += ++year;
+
 const dayselm = document.getElementById("days");
 const hourlm = document.getElementById("hour");
 const minuteselm = document.getElementById("minutes");
@@ -7,7 +10,7 @@ const secondeselm = document.getElementById("secondes");
 
 
 function counDown(){
-    const newYearDate = new Date(reTime);
+    const newYearDate = new Date(realTime);
     const correntDate = new Date();
     const tottleSecondes = (newYearDate - correntDate) / 1000;
     const days = Math.floor(tottleSecondes / 3600 / 24);
@@ -25,7 +28,7 @@ function counDown(){
 
 function zero(time){
     if(time < 10){
-        return '0'+time;
+        return ''+time;
     }else{
         return time;
     }
