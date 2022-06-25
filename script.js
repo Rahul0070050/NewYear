@@ -28,7 +28,7 @@ function counDown(){
 
 function zero(time){
     if(time < 10){
-        return ''+time;
+        return '0'+time;
     }else{
         return time;
     }
